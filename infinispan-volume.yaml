@@ -1,0 +1,6 @@
+      volumes:
+      - name: my-volume
+        secret:
+          defaultMode: 384
+          optional: false
+          secretName: clientcerts
